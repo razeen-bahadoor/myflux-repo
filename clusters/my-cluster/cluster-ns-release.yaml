@@ -8,8 +8,7 @@ spec:
   timeout: 5m
   chart:
     spec:
-      chart: cluster-ns
-      version: '1.0.0'
+      chart: ./test
       sourceRef:
         kind: HelmRepository
         name: cluster-ns

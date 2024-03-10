@@ -1,8 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: HelmRepository
+kind: GitRepository
 metadata:
   name: cluster-ns
   namespace: flux-system
 spec:
   interval: 5m
+  ref:
+    branch: master
   url: https://github.com/razeen-bahadoor/myflux-repo.git
