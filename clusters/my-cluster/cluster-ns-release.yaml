@@ -13,7 +13,6 @@ spec:
         kind: HelmRepository
         name: cluster-ns
       interval: 5m
-      targetRevision: /test
   releaseName: cluster-ns
   install:
     remediation:
