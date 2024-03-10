@@ -6,5 +6,5 @@ metadata:
 spec:
   interval: 5m
   ref:
-    branch: master
+    branch: main
   url: https://github.com/razeen-bahadoor/myflux-repo.git
