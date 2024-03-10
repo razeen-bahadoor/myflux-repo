@@ -7,4 +7,4 @@ spec:
   interval: 30s
   reg:
     branch: master
-  url: https://github.com/razeen-bahadoor/myflux-repo.git
+  url: https://github.com/stefanprodan/podinfo.git
