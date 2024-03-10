@@ -10,7 +10,7 @@ spec:
     spec:
       chart: ./test
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: cluster-ns
       interval: 5m
   releaseName: cluster-ns
